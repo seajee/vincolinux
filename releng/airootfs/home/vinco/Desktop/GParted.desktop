@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=GParted
+Comment=Crea, riorganizza ed elimina partizioni
+Exec=/usr/bin/gparted %f
+Icon=gparted
+Path=
+Terminal=false
+StartupNotify=false
