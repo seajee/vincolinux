@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.9.4
+Type=Application
+Name=Startup Sound
+Comment=Plays sound at startup
+Exec=ffplay /home/vinco/Assets/startup.wav -autoexit -nodisp
+OnlyShowIn=XFCE;
+RunHook=0
+StartupNotify=false
+Terminal=false
+Hidden=false
+

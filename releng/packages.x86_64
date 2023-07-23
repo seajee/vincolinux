@@ -150,6 +150,7 @@ pipewire-pulse
 pipewire-jack
 pipewire-media-session
 pavucontrol
+ffmpeg
 
 # Fonts
 adobe-source-han-sans-cn-fonts
