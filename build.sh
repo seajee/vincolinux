@@ -24,6 +24,7 @@ case "$1" in
         mkdir -p $CLONE_FOLDER
         mkdir -p $REPO_FOLDER
         mkdir -p $ISO_FOLDER
+        mkdir -p $BIN_FOLDER
 
         # TODO: organize dependencies
         wget -q --show-progress -P $CLONE_FOLDER "https://www.torproject.org/dist/torbrowser/12.5.1/tor-browser-linux64-12.5.1_ALL.tar.xz"
