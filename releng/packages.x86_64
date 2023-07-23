@@ -130,6 +130,8 @@ zsh
 
 # System
 linux-headers
+udisks2
+udiskie
 
 # Video
 xorg
