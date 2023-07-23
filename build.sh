@@ -35,8 +35,8 @@ case "$1" in
         cd "rtl88xxau-aircrack-dkms-git"
         makepkg
         cd $PROJECT_FOLDER
-        cp "$CLONE_FOLDER/rtl88xxau-aircrack-dkms-git/rtl88xxau-aircrack-dkms-git-r1271.a842611-1-x86_64.pkg.tar.zst" $REPO_FOLDER
-        repo-add "$REPO_FOLDER/custom.db.tar.gz" "$REPO_FOLDER/rtl88xxau-aircrack-dkms-git-r1271.a842611-1-x86_64.pkg.tar.zst"
+        find "$CLONE_FOLDER/rtl88xxau-aircrack-dkms-git/" -name "*.tar.zst" -exec cp -prv "{}" "$REPO_FOLDER" ";"
+        find "$REPO_FOLDER" -name "*.tar.zst" -exec repo-add "$REPO_FOLDER/custom.db.tar.gz" "{}" ";"
 
         exit
         ;;
