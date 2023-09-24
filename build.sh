@@ -6,7 +6,7 @@ TEMP_ISO_FOLDER="$PROJECT_FOLDER/out/tmp"
 ISO_FOLDER="$PROJECT_FOLDER/out"
 BIN_FOLDER="$PROJECT_FOLDER/releng/airootfs/home/vinco/.local/bin"
 
-TEMP_FOLDER="/tmp/vincolinux-tmp"
+TEMP_FOLDER="./tmp/vincolinux-tmp"
 CLONE_FOLDER="$TEMP_FOLDER/clone"
 REPO_FOLDER="$TEMP_FOLDER/repo"
 
